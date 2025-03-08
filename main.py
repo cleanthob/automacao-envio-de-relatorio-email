@@ -9,9 +9,9 @@ import pandas as pd
 load_dotenv()
 
 # Carregar os dados
-emails = pd.read_excel(r"Backup arquivos lojas\Lista_Gerentes.xlsx")
-lojas = pd.read_excel(r"Backup arquivos lojas\Lista_Lojas.xlsx")
-vendas = pd.read_excel(r"Backup arquivos lojas\OnePage_Modelo.xlsx")
+emails = pd.read_excel(r"Backup arquivos lojas\gerentes.xlsx")
+lojas = pd.read_excel(r"Backup arquivos lojas\lojas.xlsx")
+vendas = pd.read_excel(r"Backup arquivos lojas\vendas.xlsx")
 
 # Combina os dados dos dataframes
 vendas = vendas.merge(lojas, on="ID Loja")
