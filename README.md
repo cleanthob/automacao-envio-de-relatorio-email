@@ -20,7 +20,7 @@ O projeto visa automatizar o processo de envio de relatórios diários de vendas
 ## 🛠️ Abrir e rodar o projeto
 
   ```
-  git clone https://github.com/seu-usuario/automacao_relatorios_vendas.git
+  git clone https://github.com/cleanthob/automacao-envio-de-relatorio-email.git
   ```
 
   ```
